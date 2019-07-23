@@ -1,0 +1,14 @@
+{
+    "apps": [
+      {
+        "name": "order-wap-nuxt",
+        "script": "npm run start",
+        "cwd": "",
+        "log_date_format": "YYYY-MM-DD HH:mm Z",
+        "error_file": "/work/log/order-wap-err.log",
+        "out_file": "/work/log/order-wap-out.log",
+        "pid_file": "/work/log/order-wap-pid.log",
+        "watch": true
+      }
+    ]
+  }

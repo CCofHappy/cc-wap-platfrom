@@ -1,0 +1,82 @@
+@import './value.less';
+.component-fade-enter-active,
+.component-fade-leave-active {
+  transition: opacity .3s ease;
+}
+
+.component-fade-enter,
+.component-fade-leave-to {
+  opacity: 0;
+}
+
+body,
+p,
+ul,
+li,
+dd,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+}
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+  color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: PingFangSC-Regular, -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+.app {
+  height: 100%;
+  width: 100%;
+  font-size: 24px;
+  color: @fontColor;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-bottom: @100;
+}
+
+.van-loading.init_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: -60px;
+  margin-left: -60px;
+  z-index: 10000;
+  background: #666;
+  padding: 10px;
+  border-radius: 10px;
+}
+
