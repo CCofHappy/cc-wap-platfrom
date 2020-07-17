@@ -19,7 +19,7 @@
     "ant-design-vue": "^1.1.10",
     "@nuxtjs/axios": "^5.3.6",
     "js-cookie": "^2.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "vant": "^1.6.21",
     "koa-compress": "^3.0.0",
     "qs": "^6.7.0",
